@@ -183,7 +183,8 @@ function App() {
             </div>
             <div className="flex gap-4 mt-2">
               <a
-                href="https://github.com/castar-ventures/castari-proxy"
+                // href="https://github.com/castar-ventures/castari-proxy"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-white transition-colors"
@@ -193,7 +194,8 @@ function App() {
                 </svg>
               </a>
               <a
-                href="https://x.com/castari_dev"
+                // href="https://x.com/castari_dev"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-white transition-colors"
@@ -203,7 +205,8 @@ function App() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/company/castari"
+                // href="https://linkedin.com/company/castari"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-white transition-colors"
