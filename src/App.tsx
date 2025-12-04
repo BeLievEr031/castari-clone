@@ -4,7 +4,7 @@ function App() {
     <div className="min-h-screen flex flex-col bg-[#15171e] text-white overflow-x-hidden relative font-inter-light">
       <header className="flex w-full items-center justify-between px-6 py-6 md:px-12 z-50">
         <div className="flex items-center">
-          <img
+          {/* <img
             alt="Castari Logo"
             loading="lazy"
             width={32}
@@ -14,9 +14,9 @@ function App() {
             className="object-contain m-2"
             style={{ color: "transparent" }}
             src="/blue-castari.svg"
-          />
+          /> */}
           <span className="font-orbitron text-xl md:text-2xl font-medium">
-            Castari
+            Deploymind
           </span>
         </div>
         <nav className="flex items-center gap-6">
@@ -32,7 +32,7 @@ function App() {
             </svg>
           </a>
           <a
-            href="mailto:founders@castari.com"
+            href="mailto:sergey@deploymind.pro"
             className="text-sm md:text-base text-gray-400 hover:text-white transition-colors"
           >
             Contact
@@ -41,7 +41,8 @@ function App() {
       </header>
       <main className="flex flex-col items-center w-full mt-2 md:mt-4 relative z-10 mb-24 md:mb-40">
         <a
-          href="https://github.com/castar-ventures/castari-proxy"
+          // href="https://github.com/castar-ventures/castari-proxy"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs md:text-sm text-gray-300 shadow-sm transition hover:border-white/20 hover:bg-white/10 hover:text-white mb-8 md:mb-10 shimmer"
@@ -237,8 +238,8 @@ function App() {
           </div>
         </div>
         <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none pointer-events-none select-none opacity-[0.03]">
-          <span className="font-orbitron font-light text-[12vw] md:text-[15vw] block text-center translate-y-[10%] text-white">
-            Castari
+          <span className="font-orbitron font-light text-[7vw] md:text-[10vw] block text-center -translate-y-[10%] text-white">
+            Deploymind
           </span>
         </div>
       </div>
